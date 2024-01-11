@@ -1,0 +1,19 @@
+--------- SOME DETAILS -----------
+
+GET requests to get a resource
+    localhost:3000/ is a get request
+    localhost:3000/blogs/:id will get the blogs in id
+
+POST requests to create new data
+    localhost:3000/blog is a post request
+
+DELETE requests to delete data
+PUT requests to update data
+
+** route parameters :- the variable parts of the route that may change value
+    -> localhost:3000/blogs/:id
+    -> localhost:3000/blogs/12345
+    -> localhost:3000/blogs/50
+    -> localhost:3000/blogs/hello
+
+    
